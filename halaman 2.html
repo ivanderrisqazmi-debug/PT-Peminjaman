@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Halaman 2 - Form Pemesanan Rental </title>
+</head>
+<body>
+
+    <h3>Formulir Pemesanan Kendaraan Rental </h3>
+
+    <form action="" method="post">
+        <table border="0" cellpadding="5">
+            <tr>
+                <td>Nama Pemesan</td>
+                <td>:</td>
+                <td><input type="text" name="nama" size="30"></td>
+            </tr>
+            <tr>
+                <td>Alamat Pengiriman</td>
+                <td>:</td>
+                <td><textarea name="alamat" rows="2" cols="32"></textarea></td>
+            </tr>
+            <tr>
+                <td>Nomor Telepon</td>
+                <td>:</td>
+                <td><input type="tel" name="no_telp"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Sewa</td>
+                <td>:</td>
+                <td><input type="date" name="tgl_sewa"></td>
+            </tr>
+            <tr>
+                <td>Tanggal Pengembalian</td>
+                <td>:</td>
+                <td><input type="date" name="tgl_kembali"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kendaraan</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jenis" value="mobil"> Mobil
+                    <input type="radio" name="jenis" value="motor"> Motor
+                </td>
+            </tr>
+            <tr>
+                <td>Model Kendaraan</td>
+                <td>:</td>
+                <td><input type="text" name="model" placeholder="Contoh: Avanza/Nmax"></td>
+            </tr>
+            <tr>
+                <td>Nomor Plat Kendaraan (opsional)</td>
+                <td>:</td>
+                <td><input type="text" name="plat"></td>
+            </tr>
+            <tr>
+                <td>Asuransi Tambahan</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="asuransi" value="ya"> Ya
+                    <input type="radio" name="asuransi" value="tidak"> Tidak
+                </td>
+            </tr>
+            <tr>
+                <td>Catatan Khusus</td>
+                <td>:</td>
+                <td><textarea name="catatan" rows="3" cols="32"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <br>
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Batal">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+    <br>
+    <p>Created by: Vander - 202432057</p>
+    
+    <br>
+    <a href="index.html">Kembali ke Beranda</a>
+
+</body>
+</html>
